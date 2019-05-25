@@ -1,0 +1,73 @@
+
+body {
+   background-color: rgb(211, 63, 73);
+}
+
+#banner {
+  background-color: #FABC3C;
+  width: 100%;
+  max-width: 24em;
+  height: 200;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: 'Helvetica';
+  font-weight: normal; sans-serif;
+  margin: 0px;
+  line-height: 200px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Helvetica';
+  font-weight: 150;
+  text-align: left;
+}
+
+  p {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 350px;
+  margin-right: 200px;
+  color: #FABC3C;
+  font-family: 'Helvetica';
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #FABC3C;
+  font-family: 'Helvetica', sans-serif;
+}
+
+li a:hover {
+  color: #666;
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+  h1 {
+    color: black;
+    font-family: 'Helvetica';
+    font-weight: normal; sans-serif;
+    margin: 0px;
+    line-height: 200px;
+  }
+
+p {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #FABC3C;
+  font-family: 'Helvetica';
+  font-weight: 100;
+}
+}
+
+}
